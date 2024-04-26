@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "npm run build-css & webpack",
     "build-css": "tailwindcss -i ./src/styles/style.css -o ./public/css/style.css"
   },
   "keywords": [],
